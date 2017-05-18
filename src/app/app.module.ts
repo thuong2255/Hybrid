@@ -6,17 +6,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
+import { RouterModule } from '@angular/router';
+import { appRoutes } from 'app/app.routes';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LoginComponent,
-    MainComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
