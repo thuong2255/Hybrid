@@ -18,6 +18,10 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css",
+        "../src/assets/css/custom.css",
+        "../node_modules/animate.css/animate.css",
         "styles.css"
       ],
       "scripts": [],
