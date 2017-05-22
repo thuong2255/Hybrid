@@ -10,11 +10,13 @@ import { RouterModule } from '@angular/router';
 import { mainRoutes } from 'app/main/main.routes';
 import { UserModule } from 'app/main/user/user.module';
 import { MainComponent } from 'app/main/main.component';
+import { HomeModule } from 'app/main/home/home.module';
 
 @NgModule({
   imports: [
     CommonModule,
     UserModule,
+    HomeModule,
     RouterModule.forChild(mainRoutes)
   ],
   declarations: [MainComponent]

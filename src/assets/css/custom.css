@@ -3373,7 +3373,7 @@ a.hiddenanchor {
 
 .login_content h1:after {
   background: #7e7e7e;
-  background: linear-gradient(to left, #7e7e7e 0%, white 100%);
+  background: linear-gradient(to right, #7e7e7e 0%, white 100%);
   right: 0; }
 
 .login_content h1:before {
@@ -3428,7 +3428,7 @@ a.hiddenanchor {
 
 .button {
   background: #f7f9fa;
-  background: linear-gradient(to top, #f7f9fa 0%, #f0f0f0 100%);
+  background: linear-gradient(to bottom, #f7f9fa 0%, #f0f0f0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f9fa', endColorstr='#f0f0f0', GradientType=0);
   -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
   -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;

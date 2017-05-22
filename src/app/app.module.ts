@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from 'app/app.routes';
+import { AuthenService } from "app/core/service/authen.service";
+import { NotificationService } from "app/core/service/notification.service";
 
 @NgModule({
   declarations: [
@@ -19,7 +21,7 @@ import { appRoutes } from 'app/app.routes';
     HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [AuthenService, NotificationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
